@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle concise-body-debug",
+        "command": "concise-body-debug:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Concise Body Debug",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "concise-body-debug:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
